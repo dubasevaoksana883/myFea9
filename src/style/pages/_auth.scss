@@ -1,0 +1,13 @@
+.auth-box {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+	&__wrapper {
+		width: 60%;
+		margin-top: 4rem;
+		border: 1px solid rgba($color-black, 0.8);
+		padding: 3rem;
+		border-radius: 3px;
+	}
+}

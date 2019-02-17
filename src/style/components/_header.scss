@@ -1,0 +1,43 @@
+.header {
+	width: 100%;
+	background-color: $color-dark-blue;
+	display: flex;
+	justify-content: space-between;
+
+	&__logo-box {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: 3rem;
+	}
+
+	&__logo {
+		width: 5rem;
+	}
+
+	&__nav {
+		display: block;
+	}
+
+	&__list {
+		list-style: none;
+		display: flex;
+		margin: 0;
+		padding: 0;
+	}
+
+	&__item {
+		margin-right: 2rem;
+	}
+
+	&__link {
+		display: block;
+		text-decoration: none;
+		color: $color-black;
+		font-size: 1.4rem;
+		padding: 2rem;
+		&:hover {
+			color: $color-white;
+		}
+	}
+}

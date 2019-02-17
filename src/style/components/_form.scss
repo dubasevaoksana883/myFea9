@@ -1,0 +1,17 @@
+.input-box {
+	&__error {
+		color: red;
+		border: 1px solid red;
+		&:focus {
+			outline: none;
+		}
+	}
+
+	&__input {
+		color: green;
+
+		&:focus {
+			outline: none;
+		}
+	}
+}
